@@ -43,6 +43,8 @@ private FirebaseAuth auth;
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isComplete()){
                         Toast.makeText(getApplicationContext(),"Registerd",Toast.LENGTH_SHORT).show();
+                        //hello
+                        String str =")";
                     }
                 }
             });
